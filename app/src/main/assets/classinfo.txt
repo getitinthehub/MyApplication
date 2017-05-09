@@ -1,0 +1,46 @@
+CLASS
+Status
+User
+Url
+
+
+
+Status
+Text : String
+Date : Date
+Id : String
+User : User
+In_reply_to_status_id : String
+In_reply_to_user_id : String
+Retweeted : boolean
+Retweet_count : int
+Favorite_count : int
+Favorited : boolean
+
+
+
+User
+Id : String
+Name : String
+Screen name : String
+Location : String
+Description : String
+Protected : boolean
+Followers_count : int
+Friends_count : int
+Listed_count : int
+Statuses_count : int
+Background_Color : String
+Background_image_url : String
+Profile_image_url : String
+Profile_banner_url : String
+Following : boolean
+Follow_request_send : boolean
+Retweet_count : int
+Favorite_count : int
+Language : String
+Is_quote_status : boolean
+
+URL
+Short_url : String
+Display_url : String
