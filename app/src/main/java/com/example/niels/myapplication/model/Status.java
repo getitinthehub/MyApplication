@@ -38,11 +38,12 @@ public class Status
             jsonObject.put("favorited", favorited);
             jsonObject.put("date", date);
             jsonObject.put("user", user);
+            return jsonObject.toString();
         }
         catch (JSONException e)
         {
             e.printStackTrace();
         }
-        return jsonObject.toString();
+        return null;
     }
 }
