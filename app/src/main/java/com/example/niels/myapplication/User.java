@@ -5,6 +5,8 @@ package com.example.niels.myapplication;
  */
 
 public class User {
-    private int id;
-    private String name, screenName, description;
+    private String id, name, screenName, location, description, backgroundColor, backgroundImageUrl,
+            profileImageUrl, profileBannerUrl, language;
+    private Boolean isProtected, Following, FollowRequestSend, isQuoteStatus;
+    private int followersCount, friendsCount, listedCount, statusesCount, retweetCount, favoriteCount;
 }
