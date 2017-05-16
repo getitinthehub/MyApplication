@@ -23,6 +23,7 @@ public class Url {
         {
             jsonObject.put("shortUrl", shortUrl);
             jsonObject.put("displayUrl", displayUrl);
+
             return jsonObject.toString();
         }
         catch (JSONException e)
