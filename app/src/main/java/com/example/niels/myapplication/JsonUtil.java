@@ -10,17 +10,5 @@ import org.json.JSONObject;
  */
 
 public class JsonUtil {
-    public String toJson(User user){
-        try {
-            JSONObject jsonObject = new JSONObject();
-            jsonObject.put("screen_name", user.getScreenName());
-            jsonObject.put("name", user.getName());
-            jsonObject.put("id", user.getId());
-            //return jsonObject;
 
-        }catch (JSONException jsone){
-            System.out.println(jsone.getMessage());
-        }
-        return null;
-    }
 }
