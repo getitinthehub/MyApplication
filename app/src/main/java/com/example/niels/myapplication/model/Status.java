@@ -1,9 +1,16 @@
-package com.example.niels.myapplication;
+package com.example.niels.myapplication.model;
 
 import java.util.Date;
 
 /**
- * Created by Niels on 9-5-2017.
+ * Created for MyApplication
+ * <p>
+ * Started on 16-5-2017<br>
+ * Last changes made on 16-5-2017
+ *
+ * @author Thomas
+ * @author Niels
+ * @version 1.0
  */
 
 public class Status {

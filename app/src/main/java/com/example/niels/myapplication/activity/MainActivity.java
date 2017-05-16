@@ -1,8 +1,10 @@
-package com.example.niels.myapplication;
+package com.example.niels.myapplication.activity;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.ListView;
+
+import com.example.niels.myapplication.R;
 
 import org.json.JSONException;
 import org.json.JSONObject;
