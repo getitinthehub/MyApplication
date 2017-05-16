@@ -1,5 +1,8 @@
 package com.example.niels.myapplication.model;
 
+import org.json.JSONException;
+import org.json.JSONObject;
+
 /**
  * Created for MyApplication
  * <p>
@@ -13,4 +16,18 @@ package com.example.niels.myapplication.model;
 
 public class Url {
     private String shortUrl, displayUrl;
+    
+    public String toJson() {
+        JSONObject jsonObject = new JSONObject();
+        try
+        {
+            jsonObject.put("shortUrl", shortUrl);
+            jsonObject.put("displayUrl", displayUrl);
+        }
+        catch (JSONException e)
+        {
+            e.printStackTrace();
+        }
+        return jsonObject.toString();
+    }
 }
