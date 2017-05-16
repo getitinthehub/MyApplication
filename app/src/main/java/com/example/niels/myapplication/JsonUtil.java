@@ -5,4 +5,7 @@ package com.example.niels.myapplication;
  */
 
 public class JsonUtil {
+    public String readJson(){
+        return null;
+    }
 }
