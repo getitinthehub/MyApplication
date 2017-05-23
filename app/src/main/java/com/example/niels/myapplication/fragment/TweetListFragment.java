@@ -11,11 +11,9 @@ import com.example.niels.myapplication.R;
 /**
  * Created for MyApplication
  * <p>
- * Started on 23-5-2017<br>
- * Last changes made on 23-5-2017
+ * Started on 23-5-2017
  *
  * @author Thomas
- * @version 1.0
  */
 
 public class TweetListFragment extends ListFragment
