@@ -44,4 +44,9 @@ public class User {
         }
         return null;
     }
+    
+    public String getScreenName()
+    {
+        return screenName;
+    }
 }

@@ -24,6 +24,41 @@ public class Status
     private Date date;
     private User user;
     
+    public String getText()
+    {
+        return text;
+    }
+    
+    public int getRetweetCount()
+    {
+        return retweetCount;
+    }
+    
+    public int getFavoriteCount()
+    {
+        return favoriteCount;
+    }
+    
+    public boolean isRetweeted()
+    {
+        return retweeted;
+    }
+    
+    public boolean isFavorited()
+    {
+        return favorited;
+    }
+    
+    public Date getDate()
+    {
+        return date;
+    }
+    
+    public User getUser()
+    {
+        return user;
+    }
+    
     public String toJson()
     {
         JSONObject jsonObject = new JSONObject();
